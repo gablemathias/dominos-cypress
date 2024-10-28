@@ -20,8 +20,8 @@ describe('Pizza Hut Order', () => {
     cy.get('input[name="codigopostal2"]').type('038')
     cy.get('#localidade').type('Porto')
 
-    // Click on "Procurar Localização"
     cy.get('.add-address-form > .button')
+      .contains('Procurar Localização')
       .click();
 
     // Check the corret address and click on it

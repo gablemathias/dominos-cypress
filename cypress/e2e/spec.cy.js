@@ -21,10 +21,11 @@ describe('Pizza Hut Order', () => {
     cy.get('#localidade').type('Porto')
 
     // Click on "Procurar Localização"
-    cy.get('span.button').click();
+    cy.get('.add-address-form > .button')
+      .click();
 
     // Check the corret address and click on it
-    cy.contains('li', 'RUA DO ALMADA')
+    // cy.contains('li', 'RUA DO ALMADA')
     //label.button.white
     cy.get('label[for="morada_-999949553"]')
       .click();

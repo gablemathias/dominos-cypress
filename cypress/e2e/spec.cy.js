@@ -1,17 +1,3 @@
-// describe('Ordering on Dominos', () => {
-//   it('Visits the Dominos Website', () => {
-//     cy.visit('https://example.cypress.io')
-
-//     cy.contains('type').click()
-
-//     cy.get('.action-email').type('my-incredible-email@gmail.com')
-//     cy.get('.action-email').should('have.value', 'my-incredible-email@gmail.com')
-//     cy.get('.action-email').should('not.have.value', 'batata')
-
-//     cy.url().should('include', '/commands/actions')
-//   })
-// })
-
 describe('Pizza Hut Order', () => {
   it('Generate order on Pizza Hut Catalog', () => {
     cy.visit('https://encomendar.pizzahut.pt/pt/catalogo/pizzas/')

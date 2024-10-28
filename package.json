@@ -1,0 +1,25 @@
+{
+  "name": "dominos-cypress",
+  "version": "1.0.0",
+  "description": "End-to-end test to request a pizza order on dominos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gablemathias/dominos-cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "js",
+    "automated-test",
+    "test"
+  ],
+  "author": "Gabriel Mathias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gablemathias/dominos-cypress/issues"
+  },
+  "homepage": "https://github.com/gablemathias/dominos-cypress#readme"
+}

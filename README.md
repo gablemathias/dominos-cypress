@@ -1,6 +1,6 @@
 # Cypress QA - End-to-End Testing
 
-End-to-end test to oder a pizza on Pizza Hut
+End-to-end Automated Test - Ordering a pizza on Pizza Hut
 
 [Spec with the End-to-End Tests](https://github.com/gablemathias/pizzahut-cypress/blob/main/cypress/e2e/spec.cy.js)
 
